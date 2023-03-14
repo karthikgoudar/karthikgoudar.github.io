@@ -1,4 +1,4 @@
 # karthikgoudar.github.io
 
 
-Visit The Website: https://karthikgoudar.github.io
+Visit: https://karthikgoudar.github.io
