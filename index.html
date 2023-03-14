@@ -333,7 +333,7 @@
                       </div>
 
                       <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                          <form  class="row g-lg-3 gy-3" action="https://formsubmit.co/" method="POST"">
+                          <form  class="row g-lg-3 gy-3" action="https://formsubmit.co/el/pujugu" method="POST"">
                               <div class="form-group col-md-6">
                                   <input type="text" class="form-control" placeholder="Enter your name">
                               </div>
@@ -384,21 +384,6 @@
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-      function sendEmail(){
-        Email.send({
-              Host : "smtp.gmail.com",
-              Username : "karthikjazz1@gmail.com",
-              Password : "Karthik11",
-              To : 'karthikgoudar14@gmail.com',
-              From : document.getElementById("email").value,
-              Subject : "This is the subject",
-              Body : "And this is the body"
-          }).then(
-            message => alert(message)
-          );
-      }
-    </script>
 
 </body>
 </html>
